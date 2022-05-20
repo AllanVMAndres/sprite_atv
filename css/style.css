@@ -1,0 +1,15 @@
+/*apenas um sprite*/
+
+#anima-div{
+    background-image: url('../imgs/ciclo-sprite.jpg');
+    width: 218px;
+    height: 213px;
+    animation: anima-sprit 1s steps(8) infinite;
+}
+
+/*vai de (from) um numerom de pixeis para (to) um outro numero de pixeis*/
+
+@keyframes anima-sprit{
+    from{background-position: 0;}
+    to{background-position: 1916px;}
+}
