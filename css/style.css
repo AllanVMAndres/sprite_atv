@@ -1,13 +1,30 @@
-/*apenas um sprite*/
+body{
+    background-color: #313131;
+}
+
+#text{
+    background-color: #d4d4d486;
+    padding: 10px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #000;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FFF;
+    text-align: center;
+    box-shadow: 2px 2px 5px #000;
+}
 
 #anima-div{
-    background-image: url('../imgs/ciclo-sprite.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../imgs/sprite-planeta.png');
     width: 218px;
     height: 213px;
     animation: anima-sprit 1s steps(8) infinite;
 }
-
-/*vai de (from) um numerom de pixeis para (to) um outro numero de pixeis*/
 
 @keyframes anima-sprit{
     from{background-position: 0;}
